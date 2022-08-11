@@ -4,46 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Resume</title>
 </head>
+
 <body>
-    <main>
+    <div class="container">
         <div class="info">
-            <div>
-                <img src="./img/photo.png" alt="info_img">
-                <div class="info_name">
-                    <h1 class="text1">Konik Yurii</h1> 
+            <div class="info_wrapper">
+                <div>
+                    <img class="info_img" src="./img/photo.png" alt="info-img">
+                    <div class="info_name">
+                        <h1>Konik Yurii</h1> 
+                    </div>
                 </div>
             </div>
 
             <div class="info_job">
-            <h3 class="text_job">Full Stack Developer</h3> 
+                <h3>Full Stack Developer</h3> 
             </div>
 
             <div class="data">
-                <ul class="data_list">
-                    <li><img src="./img/Email.png" alt="email"> email</li>
-                    <li><img src="./img/call.png" alt="call"> phone</li>
-                    <li><img src="./img/location_pin.png" alt="location"> location</li>
-                    <li><img src="./img/language.png" alt="language"> language</li>
-                </ul>
+                <div class="data_list">
+                    <img class="data_img" src="./img/Email.png" alt="email">
+                    <p class="data_text">usilit@gmail.com</p>
+                </div>
+                <div class="data_list">
+                    <img src="./img/call.png" alt="call">
+                    <p class="data_text">+380505077141</p>
+                </div>
+                <div class="data_list">
+                    <img src="./img/location_pin.png" alt="location">
+                    <p class="data_text">Ukraine, Chernivtsi</p>
+                </div>
+                <div class="data_list">
+                    <img src="./img/language.png" alt="language">
+                    <p class="data_text">Ukrainian, Italiano</p>
+                </div>
             </div>
 
             <div class="skills">
-                <h2 class="text_item">Skills</h2> 
-                <ul class="skills_list">
-                    <li class="skills_item">HTLM:</li>
-                    <li class="skills_item">CSS::</li>
-                    <li class="skills_item">JavaScript::</li>
-                    <li class="skills_item">React::</li>
-                    <li class="skills_item">NodeJS::</li>
-                </ul>
+                <h2 class="text_item">Skills</h2>
+                <div class="skil_list">
+                    <p class="skil_text">HTLM:</p>
+                </div>
+                <div class="skil_list">
+                    <p class="skil_text">CSS:</p>
+                </div>
+                <div class="skil_list">
+                    <p class="skil_text">JavaScript:</p>
+                </div>
+                <div class="skil_list">
+                    <p class="skil_text">React:</p>
+                </div>
+                <div class="skil_list">
+                    <p class="skil_text">NodeJS:</p>
+                </div>
             </div>
 
             <div class="social">
-                <h2 class="text_item">social media</h2>
+                <h2 class="text_item">Social media</h2>
                 <div class="social_list">
                     <img class="social_item" src="./img/twitter.png" alt="twitter">
                     <img class="social_item" src="./img/instagram.png" alt="instagram">
@@ -89,7 +114,27 @@
                 </div>
             </div>
 
+            <div class="Companies_wrapper">
+                <div class="companies">
+                    <div class="companies_logo">
+                        <img class="comp_logo" src="./img/behance.png" alt="behance">
+                    </div>
+                    <div class="companies_info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sagittis non massa nec quis tempus, vel aliquet.
+                    </div>
+                </div>
+
+                <div class="companies">
+                    <div class="companies_logo">
+                        <img class="comp_logo" src="./img/behance.png" alt="behance">
+                    </div>
+                    <div class="companies_info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sagittis non massa nec quis tempus, vel aliquet.
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </main>
+    </div>
 </body>
 </html>
