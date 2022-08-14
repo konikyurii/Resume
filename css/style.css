@@ -68,12 +68,12 @@
 
 .text_item{
     font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 39px;
-        color: #10101A;
-        margin-left: 48px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #10101A;
+    margin-left: 48px;
 }
 
 .skil_list{
@@ -94,6 +94,10 @@
     margin-left: 24px;
 }
 
+.social{
+    margin-top: 54px;
+}
+
 .social_list{
     background-color: #FFFFFF;
     border-radius: 30px;
@@ -101,4 +105,87 @@
     padding: 26px;
     display: flex;
     justify-content: space-between;
+}
+
+.button{
+    background: none;
+    cursor: pointer;
+}
+
+.about{
+    margin-top: 102px;
+    margin-left: 76px;
+    margin-right: 24px;
+}
+
+.about_info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #7D1A9F;
+    margin-bottom: 40px;
+}
+
+.about_item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #7D1A9F;
+    margin-bottom: 28px;
+}
+
+.Education_Wrapper{
+    margin-top: 54px;
+    margin-bottom: 26px;
+}
+
+.Education{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 54px;
+}
+
+.about_year{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #7D1A9F;
+    margin-right: 64px;
+    width: 100%;
+}
+
+.education_item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #7D1A9F;
+    margin-bottom: 28px;
+    margin-left: 64px;
+}
+
+.education_info {
+    list-style-type: disc;
+}
+
+.companies{
+    display: flex;
+}
+
+.companies_info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #7D1A9F;
+    margin-left: 64px;
+    margin-bottom: 28px;
 }
